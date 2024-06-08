@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url(/CopperplateCC/ttf/CopperplateCC-Bold.ttf);
+@import url("https://fonts.googleapis.com/css2?family=Caveat");
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: roboto;
+    animation: 1s;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    top:0%;
+    position: sticky;
+}
+.navbar img{
+    height: 30px;
+    width: 100%;
+}
+.nav-items button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: white;
+}
+.figma{
+    font-family: Copperplate Gothic;
+    font-size: 150px;
+}
+.community{
+    font-family: caveat;
+    font-weight: 100;
+}
+.landing-page{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 50px ;
+    padding: 20px;
+    height: 100vh;
+    
+}
+.landing-page img{
+    height: 300px;
+}
+.left .community{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+.projects{
+    height: 100%;
+    max-width: 100%;
+    background-color: r;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+    
+}
+a .cards{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(136, 134, 134, 0.333);
+  border-radius: 10px;
+  box-shadow: 100px 10px 1 0.5px  black;
+}
+.cards:hover{
+    transform: scale(1.1);
+    outline: none;
+    cursor: pointer;
+    
+}
+.thumbnail{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thumbnail img{
+    height: 100%;
+    width: 300px;
+    border-radius: 10px;
+
+}
+.details{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 10px ;
+    font-size: 10px;
+
+}
+.title{
+    font-size: 14px;
+}
+.name{
+    font-size: 9px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate Gothic;
+    font-size: 50px;
+    font-weight: 500;
+    align-items: center;
+    height: 90px;
+}
+.contact{
+    height: 40vh;
+    width: 100%;
+    background-color: #011621;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 2px;
+    width: 100%;
+
+}
+.r{
+    font-size: 10px;
+    padding: 10px;
+}
+.reachUs,.company,.legals{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px;
+   
+}
+
+.c{
+    font-size: 10px;
+    padding:10px ;
+}
+
+.l{
+    font-size: 10px;
+    padding: 10px;
+}
+.projects a{
+    text-decoration: none;
+}
